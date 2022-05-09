@@ -27,10 +27,14 @@ pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
 pip3 install selenium
 
 4- Find for Selenium documentation: https://selenium-python.readthedocs.io/
+
 5- Drivers for Web Browser(Firefox for this test) are required and can be downloaded at: https://github.com/mozilla/geckodriver/releases
+
 6- Unzip and save the downloaded browser drivers into an specific location at the Oparating System and create a PATH to it:
 export PATH=$PATH:/usr/local/bin/geckodriver
+
 7-Write test code with Python and Selenium library
+
 8-Improvement points:
   -Since this is a quick test, I wroted all the test in a single file, however it should implement Methods and Classes.
   -time.sleep() is used with showing purposes, however its not recommended for Production environments.
