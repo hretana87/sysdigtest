@@ -9,7 +9,7 @@ Test case steps:
 3-Fill username text field with a valid email account but not registered on the site.
 4-Fill password text field with a random text.
 5-Click on login button.
-6-Verify that error message is showed with text: "SOMETEXT"
+6-Verify that error message is showed.
 
 Operating System: Ubuntu 20.04.3 LTS
 
