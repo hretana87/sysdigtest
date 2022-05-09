@@ -37,8 +37,11 @@ export PATH=$PATH:/usr/local/bin/geckodriver
 
 8-Improvement points:
   -Since this is a quick test, I wroted all the test in a single file, however it should implement Methods and Classes.
+  
   -time.sleep() is used with showing purposes, however its not recommended for Production environments.
+  
   -In order to improve element location, it is a good practice to specify more than one option at XPATH.
+  
   -Also its a good practice to check error message text content, not only class name.
 
 
